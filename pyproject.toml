@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ds-01"
+version = "0.1.0"
+description = ""
+authors = ["Andrew <sideroalogo8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ds_01"}]
+
+[tool.poetry.dependencies]
+python = "3.11"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
